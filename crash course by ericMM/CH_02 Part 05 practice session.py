@@ -1,0 +1,25 @@
+#  3-8. Seeing the World
+places = ["japan","saudi arabia","switzerland","pakistan","america"]
+print(places)
+print("\n the sorted list is: ")
+print(sorted(places))
+print("\n the original list is: ")
+print(places)
+print("\n the above list in reverse alphabatical order is: ")
+print(sorted(places, reverse=True))
+print("\n the original list is: ")
+print(places)
+print("\n the original list in reverse order is: ")
+places.reverse()
+print(places)
+print("\n the original list in reverse order is: ")
+places.reverse()
+print(places)
+print("\n the sorted list is: ")
+places.sort()
+print(places)
+print("\n the reverse sorted list is: ")
+places.sort(reverse=True)
+print(places)
+
+
